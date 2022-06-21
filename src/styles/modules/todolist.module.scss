@@ -1,0 +1,25 @@
+.container {
+
+
+   .btnContainer {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+   }
+
+   .wrapper {
+      width: 870px;
+      height: 400px;
+      background-color: var(--brown);
+      color: var(--black);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+
+      h2 {
+         font-size: 36px;
+         font-weight: 400;
+      }
+   }
+}
